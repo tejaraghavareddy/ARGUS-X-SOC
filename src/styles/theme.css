@@ -1,0 +1,18 @@
+/* ARGUS SAT theme tokens (dark, mission-control aesthetic). */
+
+:root {
+  --bg: #0b1512;
+  --panel: rgba(20, 36, 30, 0.82);
+  --panel-solid: #14241e;
+  --border: #24463a;
+  --border-strong: #2f5c49;
+  --text: #e6f2ea;
+  --text-muted: #93b3a4;
+  --accent: #2ea36a;
+  --accent-bright: #56dc8a;
+  --accent-soft: rgba(86, 220, 138, 0.12);
+  --warning: #d97706;
+  --danger: #ef4444;
+  --radius: 14px;
+  color-scheme: dark;
+}

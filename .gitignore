@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment files — NEVER commit; these hold secrets (e.g. API keys).
+# Use Freebuff Settings → Environment to manage secrets.
+.env
+.env.*
+!.env.example
+
+# Generated synthetic dataset — reproduce with `bun run generate:data`
+generated-data/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+bun-debug.log*
+
+# Test / coverage output
+coverage/
